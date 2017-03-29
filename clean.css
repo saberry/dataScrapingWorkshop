@@ -1,0 +1,19 @@
+.pack {
+   color: firebrick;
+}
+
+.func {
+   color: #ff5500;
+}
+
+.reveal .progress span {
+    display: none;
+}
+
+.reveal .playback {
+    display: none;
+}
+
+.reveal .controls {
+    display: none !important;
+}
