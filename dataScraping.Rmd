@@ -121,7 +121,7 @@ bankList = read_html(url) %>% # Read the html
 url = 
   "https://en.wikipedia.org/wiki/List_of_largest_banks_in_the_United_States"
   
-bankList = pd.read_html(url)[0]
+banklist = pd.read_html(url)[0]
 ```
 
 
@@ -205,11 +205,6 @@ reviews = yelpHTML %>%
 ```
 
 
-## Dining Hall Fun
-
-<a href="http://www3.nd.edu/~gjiang3/dining/">What's good today?</a>
-
-
 ## Getting Messy
 
 Let's play a little game.
@@ -218,5 +213,17 @@ Let's play a little game.
 
 
 ## Regular Expression
+
+| Pattern             | Matches                          |
+|---------------------|----------------------------------|
+| `Ph.? ?D`           | `Ph.D`, `Ph. D`, `Ph. D`, `Ph D` |
+| `\d{3}-\d{3}-\d{4}` | Phone numbers                    |
+
+[RegExr](http://regexr.com/)
+
+
+## Dining Hall Fun
+
+<a href="http://www3.nd.edu/~gjiang3/dining/">What's good today?</a>
 
 ## { data-background-image="https://media3.giphy.com/media/l3UcrZHrGW2CjHXqM/giphy.gif"}
