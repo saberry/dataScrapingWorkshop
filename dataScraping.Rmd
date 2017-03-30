@@ -138,6 +138,9 @@ For these easy tables, we might be able to use a service.
 
 Many free ones are available.
 
+[import.io](https://www.import.io/)
+[dexi.io](https://app.dexi.io/)
+
 Excel Web Query is handy for grabbing tables.
 
 It can even be *refreshed*.
