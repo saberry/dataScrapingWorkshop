@@ -49,6 +49,23 @@ Unstructured
 <span class="fragment fade-up">csv</span>
 
 
+## json 
+
+```{json}
+{ 
+  "reviewerID": "A2SUAM1J3GNN3B", 
+  "asin": "0000013714", 
+  "reviewerName": "J. McDonald", 
+  "reviewText": "I bought this for my husband who plays the piano. 
+                He is having a wonderful time playing these old hymns. 
+                The music is at times hard to read because we think the 
+                book was published for singing from more than playing from. 
+                Great purchase though!", 
+  "overall": 5.0, 
+}
+```
+
+
 ## API
 
 An API will make life much easier on everyone.
@@ -74,9 +91,11 @@ Reddit
 
 Most modern sites have one (or something resembling one).
 
-Sometimes we need to combine both API and general scraping endeavors.
+## API Limits
 
-API Limits
+Many (if not most) APIs limit your quiries.
+
+APIs usually do not give you all of the data that you want either.
 
 ## Easing In
 
@@ -89,7 +108,7 @@ Tables are the easiest thing to scrape.
 <a href="http://www.usinflationcalculator.com/inflation/consumer-price-index-and-annual-percent-changes-from-1913-to-2008/">Consumer Price Index</a>
 
 
-## Maybe Meeting A New Friend
+## (Maybe) Meeting A New Friend
 
 No matter your browser, it will have an <span class="func">Inspect</span> tool.
 
